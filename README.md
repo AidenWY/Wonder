@@ -22,15 +22,15 @@
                 "settings": {
                     "vnext": [
                         {
-                            "port": 443,
+                            "port": xxx,
                             "users": [
                                 {
-                                    "security": "aes-128-gcm",
-                                    "id": "cd6f8490-bf03-4cdb-ad95-75d2bccf472b",
-                                    "alterId": 64
+                                    "security": "xxx",
+                                    "id": "xxxx",
+                                    "alterId": xxx
                                 }
                             ],
-                            "address": "wytest.duckdns.org"
+                            "address": "xxx"
                         }
                     ]
                 },
