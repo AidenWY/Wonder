@@ -5,12 +5,32 @@
     v2ray工具及GUI源码（and、win、mac都有在git上托管源码，ios没有）：https://bingohuang.gitbooks.io/docker_practice/content/
 
 # Interface
-    POST  "/login"
-    POST  "/register"
-    POST   "/auth/serverConfig"
-    GET   "/refresh/token"
-    
-# Data
+   ### POST  "/login" 
+   ###### with json
+     {
+	    "email": "xxx", 格式校验没做
+	    "password": "xxx",
+	    "udid": "xxx",
+     }
+   ### POST  "/register"
+   ###### with json
+    {
+	"email": "xxx", 格式校验没做
+	"password": "xxx",
+	"udid": "xxx",
+    } 
+   ### POST  "/auth/serverConfig" 
+   ###### with token in headers 
+    wt: token
+   ###### and with json
+    {
+	"region": "xxx"
+    }
+   ### GET   "/refresh/token"
+   ###### with token in headers
+    mt: token
+# Data Simple 
+  ### long
     {
     "data": {
         "log": {
