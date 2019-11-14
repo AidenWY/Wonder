@@ -24,7 +24,7 @@
     wt: token
    ###### and with json
     {
-	"region": "xxx"
+	    "region": "xxx"
     }
    ### GET   "/refresh/token"
    ###### with token in headers
