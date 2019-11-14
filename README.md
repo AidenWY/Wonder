@@ -14,11 +14,11 @@
      }
    ### POST  "/register"
    ###### with json
-    {
-	"email": "xxx", 格式校验没做
-	"password": "xxx",
-	"udid": "xxx",
-    } 
+     {
+	    "email": "xxx", 格式校验没做
+	    "password": "xxx",
+	    "udid": "xxx",
+     }
    ### POST  "/auth/serverConfig" 
    ###### with token in headers 
     wt: token
